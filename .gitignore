@@ -1,0 +1,37 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot 4
+.godot/
+
+# Godot 3 (harmless)
+.import/
+
+# Export presets
+export.cfg
+export_presets.cfg
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Builds
+build/
+exports/
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# SECURITY — NEVER COMMIT
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+*.env
+.ssh/
