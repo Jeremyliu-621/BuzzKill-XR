@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bungh17pvcq44"]
+
+[ext_resource type="Script" uid="uid://khey7ul3jnwc" path="res://ui.gd" id="1_fyqef"]
+
+[node name="UI" type="Control" unique_id=1383709544]
+layout_mode = 3
+anchor_right = 0.47100002
+anchor_bottom = 0.5
+offset_right = 639.40796
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fyqef")
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=1581231847]
+layout_mode = 0
+offset_top = 5.0
+offset_right = 1162.35
+offset_bottom = 329.0
+max_value = 1.0
+value = 0.5
