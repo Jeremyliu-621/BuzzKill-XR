@@ -1,0 +1,10 @@
+# Required packages
+pylsl>=1.16
+numpy>=1.24
+
+# Optional (recommended for better filtering/performance)
+scipy>=1.10  # enables bandpass filtering (recommended)
+
+# Notes:
+# - tkinter is part of the Python standard library on Windows and typically does not require a pip install.
+# - Install dependencies with: pip install -r requirements.txt
